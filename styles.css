@@ -1,0 +1,82 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Título Principal */
+h1 {
+    text-align: center;
+    color: #333;
+    background-color: #ccc;
+    padding: 10px;
+    margin: 0;
+}
+
+/* Tabla de Datos */
+.table-header {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.data-table th, .data-table td {
+    border: 2px solid green;
+    padding: 10px;
+    text-align: center;
+}
+
+.data-table {
+    background-color: yellow;
+}
+
+/* Formulario */
+.form-container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: green;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.form-header {
+    background-color: black;
+    color: yellow;
+    padding: 10px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
